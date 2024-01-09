@@ -1,6 +1,3 @@
-# https://docs.brew.sh/Formula-Cookbook
-# https://rubydoc.brew.sh/Formula
-
 class Zadark < Formula
   desc "ZaDark is an extension that helps you enable Dark Mode for Zalo PC."
   homepage "https://github.com/quaric/zadark"
