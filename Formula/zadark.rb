@@ -6,10 +6,10 @@ class Zadark < Formula
 
   if Hardware::CPU.arm?
     url "https://storage.zadark.com/zadark-macos-#{version}-arm64.tar.gz"
-    sha256 "0b093366824ccbf73f8dbf0267a389ec57cc6f4c3bb9e02f1264b2b2be04fbfe"
+    sha256 "961ef9f66b1c86d92781543566e3963b56c5de3eb364690a3b34d84455a3f238"
   else
     url "https://storage.zadark.com/zadark-macos-#{version}-x64.tar.gz"
-    sha256 "994cea3d911c8079fe3c78e14536118bc6024ed93d39887fd1624d839b7b9f4c"
+    sha256 "96ab162c199f58b328ab93df7b17677371f53a0b8a14a9b922dbafa849dfe735"
   end
 
   def install
