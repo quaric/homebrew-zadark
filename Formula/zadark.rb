@@ -2,14 +2,14 @@ class Zadark < Formula
   desc "ZaDark is an extension that helps you enable Dark Mode for Zalo PC."
   homepage "https://github.com/quaric/zadark"
   license "MPL-2.0"
-  version "15.1"
+  version "15.1.1"
 
   if Hardware::CPU.arm?
     url "https://storage.zadark.com/zadark-macos-#{version}-arm64.tar.gz"
-    sha256 "141ab798a06d38c1fe4dfcb2d11424022359d8304f0d3d407b82a432b8232de8"
+    sha256 "4331116d99c811672497ace013dab923e498127e69233856d3edb6ecb483afa0"
   else
     url "https://storage.zadark.com/zadark-macos-#{version}-x64.tar.gz"
-    sha256 "f92916fda1098d585b429bff24fb4a22250efe585b889b26e629f468fac65c47"
+    sha256 "6394667469bbf5acb167cc872db2d6e84d1854421b9390a11f1836b086a3840f"
   end
 
   def install
