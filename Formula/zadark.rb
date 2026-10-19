@@ -1,6 +1,6 @@
 class Zadark < Formula
   desc "ZaDark is an extension that helps you enable Dark Mode for Zalo PC."
-  homepage "https://github.com/quaric/zadark"
+  homepage "https://github.com/ncdai/zadark"
   license "MPL-2.0"
   version "26.3"
 
